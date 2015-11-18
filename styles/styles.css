@@ -1,0 +1,42 @@
+body {
+  font-family: 'Homenaje', 'Arial Narrow', sans-serif;
+}
+a, a:hover {
+  text-decoration:none;
+  color:#333333;
+}
+section {
+  width:30%;
+  margin-right:5%;
+  padding:2rem 1rem;
+}
+section:last-child {
+  margin-right:0;
+}
+section img {
+  margin:0 auto;
+  display:block;
+}
+.ratings {
+  display:block;
+  margin-top:1rem;
+}
+.item-name, .button {
+  font-weight:800;
+}
+.item-name {
+  font-size:1.3rem;
+  margin:1rem 0;
+}
+.item-price {
+  font-size:1.2rem;
+  margin:0 0 1.5rem;
+}
+.item-price:before {
+  content:"$";
+}
+.button {
+  padding:.5rem 1rem;
+  border:1px solid #333333;
+  text-align:center;
+}
